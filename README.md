@@ -174,5 +174,3 @@ This project demonstrates real DevOps and CloudOps skills:
 - secure IAM design  
 - professional documentation  
 - real-world pipeline architecture  
-
-It pairs perfectly with the **Terraform AWS Environment** project and forms the foundation of a hire-ready 2026 cloud engineering portfolio.
