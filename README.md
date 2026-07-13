@@ -188,6 +188,7 @@ CodeDeploy automatically restores the previous working version, ensuring zero do
 
 This approach mirrors real production deployment strategies used by CloudOps and DevOps teams.
 
+---
 
 ## 🔮 Future Enhancements
 
@@ -216,6 +217,22 @@ Rebuild the entire pipeline using CloudFormation, CDK, or Terraform.
 
 These enhancements mirror how real enterprise CI/CD systems evolve over time.
 
+---
+
+## 📸 Screenshots (Pipeline Visuals)
+
+Below are key screenshots demonstrating the successful CI/CD pipeline execution.
+
+### Pipeline Execution
+![Pipeline Success](assets/pipeline-success.png)
+
+### CodeBuild History
+![CodeBuild History](assets/codebuild-history.png)
+
+### CodeDeploy Lifecycle Events
+![CodeDeploy Events](assets/codedeploy-events.png)
+
+---
 
 ## 🏁 Final Notes
 This project demonstrates real DevOps and CloudOps skills:
