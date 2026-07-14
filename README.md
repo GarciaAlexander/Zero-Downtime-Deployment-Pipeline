@@ -43,11 +43,10 @@ This project solves those problems by implementing a fully automated CI/CD pipel
 ---
 
 ## 🏗️ Architecture Diagram (Conceptual)
-
-GitHub (Source)
+     GitHub (Source)
      │
      ▼
-AWS CodePipeline
+     AWS CodePipeline
      │
      ├── Source Stage (GitHub Webhook)
      │
@@ -55,18 +54,17 @@ AWS CodePipeline
      │       └── buildspec.yml
      │
      └── Deploy Stage (CodeDeploy)
-             ├── appspec.yml
-             ├── install.sh
-             └── start.sh
-     
+     ├── appspec.yml
+     ├── install.sh
+     └── start.sh
+
 EC2 Instance (Deployment Target)
 S3 Bucket (Pipeline Artifacts)
 IAM Roles (Pipeline, Build, Deploy)
-
 ---
 
 ## 🖼️ Architecture Diagram (Visual)
-(To be added once the pipeline is complete.)
+![Architecture Diagram](assets\architecture_diagram.png)
 
 ---
 
@@ -97,19 +95,19 @@ Each step is documented to mirror real CloudOps/DevOps workflows.
 
 ## 📦 Project Structure
 
-Zero-Downtime-Deployment-Pipeline/
-│
-├── index.html
-│
-├── buildspec.yml
-│
-├── appspec.yml
-│
-├── scripts/
-│   ├── install.sh
-│   └── start.sh
-│
-└── README.md
+     Zero-Downtime-Deployment-Pipeline/
+     │
+     ├── index.html
+     │
+     ├── buildspec.yml
+     │
+     ├── appspec.yml
+     │
+     ├── scripts/
+     │   ├── install.sh
+     │   └── start.sh
+     │
+     └── README.md
 
 ---
 
@@ -215,7 +213,7 @@ Use Route 53 + ACM to serve the application over HTTPS with a custom domain.
 ### Infrastructure as Code
 Rebuild the entire pipeline using CloudFormation, CDK, or Terraform.
 
-These enhancements mirror how real enterprise CI/CD systems evolve over time.
+These enhancements reflect how enterprise CI/CD systems evolve over time.
 
 ---
 
@@ -235,7 +233,7 @@ Below are key screenshots demonstrating the successful CI/CD pipeline execution.
 ---
 
 ## 🏁 Final Notes
-This project demonstrates real DevOps and CloudOps skills:
+This project showcases hands-on DevOps and CloudOps experience:
 
 - automated deployments  
 - zero-downtime release strategies  
